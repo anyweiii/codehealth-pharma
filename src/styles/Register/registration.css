@@ -1,0 +1,91 @@
+.registration-bg {
+    background-image: linear-gradient(rgba(72, 173, 168, 0.39), #6b6b6bb4),
+    url('https://t4.ftcdn.net/jpg/02/90/85/99/360_F_290859958_9ocQpqUNLS646rOy6M0uZz9YHIrXfa2f.jpg');
+}
+
+.nav-link-registration {
+    font-family: 'Kanit';
+    letter-spacing: 3px;
+    color: 	#80e4ed !important;
+}
+
+.nav-link-registration.active {
+    background-color:#449353 !important;
+}
+
+.custom-nav-pills {
+    background-color: #6b6b6b;
+}
+
+.form-format {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid transparent; 
+    background-color: #6b6b6bbd;
+    box-shadow: 0px 0px 10px #a3a3a3; 
+    transition: border-color 0.3s ease; 
+}
+
+.form-format:focus-within {
+    border-color: #ffffff; 
+}
+
+.form-headers {
+    color: #80e4ed;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab';
+    font-weight: bolder;
+}
+
+.button-user {
+    background-color: #611717 !important; 
+    color: #80e4ed !important; 
+    border: 1px solid #611717 !important; 
+    padding: 8px 16px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-user:hover {
+    background-color: #111111 !important; 
+    color: #ffffff !important; 
+}
+
+.button-user-reg {
+    background-color: #42c48e !important; 
+    color: #00444b !important; 
+    border: 1px solid #98d8bd !important; 
+    padding: 8px 16px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 0 8px rgba(66, 196, 142, 0); 
+}
+
+.button-user-reg:hover {
+    background-color: #0a7941 !important; 
+    color: #21a7ac !important; 
+    box-shadow: 0 0 20px rgba(10, 121, 65, 0.7); 
+}
+
+.account {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.login-link {
+    color: #ffff00; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+.login-link:hover {
+    color: #ffff66; /* Lighter yellow color on hover */
+}
+
+
+
+

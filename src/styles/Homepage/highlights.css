@@ -1,0 +1,66 @@
+.product1, .product2, .product3, .product4, .product5 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px !important;
+}
+
+.product1 {
+    background-image: 
+    linear-gradient(to bottom, rgba(241, 238, 238, 0.562), rgba(255, 255, 255, 0)), 
+    url('https://lalascosmetics.eu/cdn/shop/files/image_941db96c-e793-447b-a832-d90ca2a84d35_1024x1024.jpg?v=1689789794'); 
+}
+
+.product2 {
+    background-image: 
+    linear-gradient(to bottom, rgba(241, 238, 238, 0.562), rgba(255, 255, 255, 0)), 
+    url('https://cdn11.bigcommerce.com/s-dmb1ykvg7m/images/stencil/1280x1280/products/35089/3381/025211__14373.1593586458.png?c=2'); 
+}
+
+.product3 {
+    background-image: 
+    linear-gradient(to bottom, rgba(241, 238, 238, 0.562), rgba(255, 255, 255, 0)), 
+    url('https://zbga.shopsuki.ph/cdn/shop/products/4ad80828-61b4-4b57-9b4d-bdc68bf77bd6_800x.jpg?v=1668661625'); 
+}
+
+.product4 {
+    background-image: 
+    linear-gradient(to bottom, rgba(241, 238, 238, 0.562), rgba(255, 255, 255, 0)), 
+    url('https://down-ph.img.susercontent.com/file/4d014d97f37caa2c3aa76525c1a30708'); 
+}
+
+.product5 {
+    background-image: 
+    linear-gradient(to bottom, rgba(241, 238, 238, 0.562), rgba(255, 255, 255, 0)), 
+    url('https://www.rbc-mdc.tech/cdn/shop/products/ENERVONTAB100S_1200x1200.png?v=1656552793'); 
+}
+
+.card-highlights-title {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    color: #34c70f !important; 
+}
+
+.card-text-highlights {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #64a371; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #449353; 
+}

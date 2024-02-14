@@ -1,0 +1,55 @@
+.products-display {
+    background-image: linear-gradient(rgba(72, 173, 168, 0.39), #6b6b6bb4), 
+    url('https://images.newscientist.com/wp-content/uploads/2019/06/18153152/medicineshutterstock_1421041688.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.prod-display-card {
+    background: rgba(81, 81, 82, 0.808) !important;
+    border: 1px solid rgba(255, 255, 255, 0.459) !important;
+}
+
+.prod-display-title {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    color: #33ff00 !important; 
+    font-weight: bold;
+}
+
+.prod-display-sub {
+    font-family: 'Kanit';
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.prod-display-text {
+    font-family: 'Verdana';
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(112, 232, 248) !important;
+    letter-spacing: 1px;
+}
+
+.btn-details {
+    display: flex;
+    justify-content: center;
+    background-color: #2da010 ; 
+    color: #fff; 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+.btn-details:hover {
+    background-color: #1e6e09;
+}   
+  

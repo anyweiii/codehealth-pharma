@@ -1,0 +1,60 @@
+.cart-details-wrap {
+    background-image: linear-gradient(rgba(36, 87, 84, 0.562), #6b6b6bb4), 
+    url('https://png.pngtree.com/background/20230527/original/pngtree-pharma-shopping-cart-moving-in-a-store-picture-image_2764074.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 98.7vw;
+    min-height: 88.3vh;
+}
+
+.cart-header {
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(217, 253, 206);
+    letter-spacing: 2px;
+}
+
+.cart-items-details {
+    margin-top: 10px;
+}
+
+.cart-quantity {
+    background: rgba(7, 7, 7, 0.699) !important;
+}
+
+.cart-quan-items {
+    font-family: 'Kanit';
+    color: white !important;
+    letter-spacing: 2px;
+}
+
+.minus-btn {
+    background: rgb(9, 151, 151) !important;
+    margin-right: 2px;
+    color: rgb(253, 253, 253) !important;
+}
+
+.minus-btn:hover {
+    color: rgb(165, 165, 165) !important;
+}
+
+.plus-btn {
+    background: rgb(9, 151, 16) !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: rgb(253, 253, 253) !important;
+}
+
+.plus-btn:hover {
+    color: rgb(7, 53, 9) !important;
+}
+
+.input-quantity {
+    padding-bottom: 5px;
+}
+
+

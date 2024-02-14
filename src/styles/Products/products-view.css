@@ -1,0 +1,72 @@
+.products-view-cont {
+    background-image: linear-gradient(rgba(72, 173, 168, 0.37), #6b6b6bdc),
+    url('https://wallpapers.com/images/hd/medical-background-cjge7e89adg6ub8x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 87.2vh;
+    min-width: 100vw;
+}
+
+.card-prod-viewtitle {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    color: #33ff00 !important; 
+    font-weight: bold;
+}
+
+.card-prod-view {
+    margin-top: 100px;
+    background: rgba(81, 81, 82, 0.808) !important;
+    border: 1px solid rgba(255, 255, 255, 0.459) !important;
+}
+
+.card-prod-viewsubtitle {
+    font-family: 'Kanit';
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.card-prod-viewdes {
+    font-family: 'Verdana';
+    font-size: 14px;
+    color: rgb(112, 232, 248) !important;
+    letter-spacing: 1px;
+}
+
+.login-prodview {
+    display: flex;
+    justify-content: center;
+    background-color: #d35a14 ; 
+    color: #fff; 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.login-prodview:hover {
+    background-color: #80370d;
+}
+
+.add-cart-prodview {
+    width: 45vw;
+    justify-content: center;
+    background-color: #2da010 !important; 
+    color: #fff; 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+.add-cart-prodview:hover {
+    background-color: #1e6e09 !important;
+}

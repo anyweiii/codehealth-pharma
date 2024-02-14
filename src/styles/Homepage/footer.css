@@ -1,0 +1,61 @@
+.footer {
+    background-color: #4f7cac;
+    padding-top: 40px;
+}
+
+.footer-logo {
+    max-width: 150px;
+}
+
+.footer-section h3 {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+    color: #69eeff;
+}
+
+.footer-about {
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+    color: #69eeff;
+    text-align: justify;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #69eeff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    font-weight: bold; 
+}
+
+.footer-links a:hover {
+    color: #65ca79; 
+}
+
+.footer-bottom {
+    background-color: rgb(83, 83, 83);
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+

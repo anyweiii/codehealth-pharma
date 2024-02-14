@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10px !important; 
+    transform: translateY(-50%);
+    width: calc(100% - 20px); 
+    height: 200px;
+    padding: 20px;
+    background-color: #0a001baf
+}
+
+.banner-title {
+    color: #01f2fa;
+    font-family: 'Lato';
+    letter-spacing: 2px;
+}
+
+.banner-description {
+    color: 	#b9ffa7;
+    font-family: 'Lato';
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+    .custom-carousel-caption {
+        left: 10px !important; 
+        width: calc(120% - 100px); 
+        padding: 10px; 
+    }
+}
+
+.button-banner {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #146d70b6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-banner:hover {
+    background-color: #35b14ed8;
+}
